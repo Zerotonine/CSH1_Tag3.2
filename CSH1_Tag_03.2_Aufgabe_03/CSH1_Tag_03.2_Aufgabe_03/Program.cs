@@ -23,8 +23,7 @@ namespace CSH1_Tag_03._2_Aufgabe_03
 
             if (DateTime.TryParse(datumZahl, out datum))
             {
-                datumText = "";
-                datumText += datum.Day + "." + CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(datum.Month) + " " + datum.Year;
+                datumText = datum.Day + "." + CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(datum.Month) + " " + datum.Year;
                 return true;
             }
             datumText = null;
