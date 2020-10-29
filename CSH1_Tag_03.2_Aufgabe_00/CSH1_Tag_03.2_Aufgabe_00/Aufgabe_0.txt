@@ -1,0 +1,12 @@
+﻿/* Aufgabe 0 (Basics)
+ * Schreiben Sie eine statische Funktion "Teilen". 
+ * Parameter sind: int dividend, int divisor, out double quotient
+ * Rückgabe: True, wenn ein Teilen möglich war, False wenn nicht.
+ * Ein Teilen ist dann nicht möglich, wenn der Divisor = 0 ist.
+ * 
+ * Im Main testen Sie beide Möglichkeiten. Klappt das Teilen, wird das Ergebnis ausgegeben, sonst erscheint eine Fehlermeldung.
+ * 
+ * Hinweis: Möchten Sie eine Double-Divison von Ganzzahlen durchführen (damit das Ergebnis der Division auch tatsächlich ein Double ist), muss mindestens ein Teil der Berechnung in ein Double gecastet werden.
+ * z.B. quotient = (double)dividend / (double)divisor;
+ * So liefert 10 / 3 = 3.33333333, ohne den Cast wäre das Ergebnis 10 / 3 = 3.
+ */
